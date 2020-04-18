@@ -1,5 +1,5 @@
 .intro {
-  font-size: 1.1em;
+  font-size: 1.0em;
   margin-bottom: 2em;
 }
 
@@ -69,4 +69,8 @@
   transition: .2s color;
   vertical-align: middle;
   margin-bottom: .15em;
+}
+
+.navigation {
+  text-align: right;
 }

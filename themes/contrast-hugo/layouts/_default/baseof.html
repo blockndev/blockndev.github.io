@@ -21,11 +21,12 @@
 <body>
 
 <header class="icons">
+  <i class="col-1">&nbsp;</i>
   {{ if not (gt (len .Site.Menus) 1) }}
-    <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    <a class="col-1" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
   {{ end }}
   {{ range $menu, $items := .Site.Menus }}
-    <nav>
+    <nav class="col-1 navigation">
     {{ range $items }}
       <a href="{{ .URL }}" {{ if (eq $.RelPermalink .URL) }}class="selected"{{ end }}>
         {{ if and .Identifier (index $.Site.Data.fontawesome.icons .Identifier) }}
@@ -39,9 +40,6 @@
       </a>
     {{ end }}
     </nav>
-  {{ end }}
-  {{ with .Site.Params.description }}
-    <div class="hidden description">{{ safeHTML . }}</div>
   {{ end }}
 </header>
 

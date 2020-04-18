@@ -6,5 +6,30 @@ description = "Блог о разработке и блокчейн-технол
 theme = "contrast-hugo"
 
 [params]
-    description = "Блог о разработке и блокчейн-технологиях. Код, сети, паранойя."
-    longDescription = "Блог о блокчейн-технологиях и разработке. Код, сети, криптография, паранойя — вот это вот всё. Копаем глубоко, находим самое сутевое."
+description = "Блог о разработке и блокчейн-технологиях. Код, сети, паранойя."
+longDescription = "Блог о блокчейн-технологиях и разработке. Код, сети, криптография, паранойя — вот это вот всё. Копаем глубоко, находим самое сутевое."
+
+[menu]
+  [[menu.remote]]
+  name = "Telegram"
+  url = "https://t.me/blockndev"
+  identifier = "telegram"
+  weight = 1.0
+
+  [[menu.remote]]
+  name = "Mail"
+  url = "mailto:me@jeiwan.ru"
+  identifier = "envelope"
+  weight = 2.0
+
+  [[menu.remote]]
+  name = "Github"
+  url = "https://github.com/Jeiwan"
+  identifier = "github"
+  weight = 3.0
+
+  [[menu.remote]]
+  name = "Subscribe"
+  url = "/index.xml"
+  identifier = "rss"
+  weight = 4.0

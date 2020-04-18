@@ -52,15 +52,21 @@ b, strong, th {
 
 a {
   color: inherit;
-  text-decoration: inherit;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #E24B5D;
+  border-color: #E24B5D;
+  transition: color .3s ease,border-color .3s ease;
 }
 
 article a {
-  color: #68f;
+  color: #4BBA5D;
+  text-decoration: none;
+  border: 1px solid #4BBA5D;
+  border-width: 0 0 1px 0;
 }
 
 header time {
@@ -144,6 +150,15 @@ body > header > a {
   font-size: 1.3em;
 }
 
+body > header > .contacts {
+  list-style: none;
+  overflow: hidden;
+}
+
+body > header > .contacts > li {
+  float: left;
+}
+
 article header {
   margin-bottom: 1.5em;
 }
@@ -154,11 +169,11 @@ article header h1 {
 }
 
 nav {
-  margin: .5em -.8em;
+  margin: 0;
 }
 
 nav a {
-  margin: .5em .8em;
+  margin: .5em .4em;
 }
 
 body > header, body > article, body > footer {
@@ -169,4 +184,9 @@ body > header, body > article, body > footer {
   body > header, body > article, body > footer {
     padding: 1.75em calc(38% - 12em);
   }
+}
+
+.col-1 {
+  flex-basis: 0;
+  flex-grow: 1;
 }
