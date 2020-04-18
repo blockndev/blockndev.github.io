@@ -1,11 +1,44 @@
-.archive li {
+.intro {
   font-size: 1.1em;
+  margin-bottom: 2em;
 }
 
-.archive time {
-  display: inline-block;
-  min-width: 10ch;
-  margin: 0 .2em;
+.archive-table {
+  border-collapse: collapse;
+  border: none;
+  box-shadow: none;
+  border-spacing: 0;
+}
+
+.archive-table tr {
+  border: none;
+  background-color: transparent;
+}
+
+.archive-table td {
+  padding: 0 0 1em;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.archive-table tr td {
+  background-color: transparent;
+  box-shadow: none;
+  vertical-align: baseline;
+}
+
+.archive-table td.date-cell {
+  text-align: right;
+  padding-right: 1em;
+  padding-left: 2em;
+  font-size: 0.8em;
+}
+
+.archive-table td.title-cell {
+  text-align: left;
+  padding-left: 1em;
+  font-size: 1.1em
 }
 
 .hidden {
