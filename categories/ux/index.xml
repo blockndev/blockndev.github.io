@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UX on Блокчейн &amp; Разработка</title>
+    <link>https://blockndevcom/categories/ux/</link>
+    <description>Recent content in UX on Блокчейн &amp; Разработка</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://blockndevcom/categories/ux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Проблема Биткоин-кошельков</title>
+      <link>https://blockndevcom/posts/problems-of-bitcoin-wallets/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blockndevcom/posts/problems-of-bitcoin-wallets/</guid>
+      <description>Биткоин внутренне состоит из таких механик, которые до него нигде так широко не использовались и которые не знакомы массовому пользователю. Как сделать так, чтобы пользователь, не знакомый с этими механиками, смог пользоваться Биткоином? Провести параллель с чем-то знакомым. С кошельком (физическим), например, или с банковским приложением. Адрес, баланс, поступление, списание, входящие и исходящие переводы, история переводов — это ведь все из банковского мира. А как бы мог выглядеть интерфейс точно отражающий механику Биткоина?</description>
+    </item>
+    
+  </channel>
+</rss>
