@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LightningNetwork on Блокчейн &amp; Разработка</title>
-    <link>https://blockndevcom/categories/lightningnetwork/</link>
+    <link>https://blockndev.com/categories/lightningnetwork/</link>
     <description>Recent content in LightningNetwork on Блокчейн &amp; Разработка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Fri, 03 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blockndevcom/categories/lightningnetwork/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blockndev.com/categories/lightningnetwork/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LSAT: токен аутентификации в сервисах с оплатой через Лайтнинг</title>
-      <link>https://blockndevcom/posts/whats-lsat/</link>
+      <link>https://blockndev.com/posts/whats-lsat/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/whats-lsat/</guid>
+      <guid>https://blockndev.com/posts/whats-lsat/</guid>
       <description>Пару дней назад компания Lightning Labs представила новый протокол LSAT: Lightning Service Authentication Token. Протокол описывает способ аутентификации и оплаты за использование сервисов через Лайтнинг. Другими словами, это платежный шлюз для API-серверов с автоматической и гибкой оплатой сатошами через Lightning Network.
 Пару лет назад Blockstream проводили неделю приложений на LN. Одно из приложений было как раз таким платёжным шлюзом. Идея простая: у вас есть какой-то сервис, который предоставляет услуги пользователям. Допустим, это сервис типа CoinMarketCap.</description>
     </item>
     
     <item>
       <title>Криптография и паранойя</title>
-      <link>https://blockndevcom/posts/cryptography-and-paranoia/</link>
+      <link>https://blockndev.com/posts/cryptography-and-paranoia/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/cryptography-and-paranoia/</guid>
+      <guid>https://blockndev.com/posts/cryptography-and-paranoia/</guid>
       <description>Эти слова — синонимы. Параноидальный подход ко всем аспектам и деталям — фундаментальное и неотъемлемое свойство криптографии. Причина этого в том, что невозможно выявить факт взлома криптографического алгоритма. Если алгоритм шифрования взломан, то взломщика невозможно отличить от честного пользователя, в системе они ни чем не будут отличаться. Если сейчас окажется, что какая-то используемая повсеместно хэш-функция уязвима, то уже ничего нельзя будет сделать, нельзя будет выпустить патч и пофиксить баг. Поэтому в любом криптографическом алгоритме не должно быть известных даже теоретических способов взлома.</description>
     </item>
     
     <item>
       <title>Движение сатошей в Лайтнинге</title>
-      <link>https://blockndevcom/posts/flow-of-satoshis-in-lightning-network/</link>
+      <link>https://blockndev.com/posts/flow-of-satoshis-in-lightning-network/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/flow-of-satoshis-in-lightning-network/</guid>
+      <guid>https://blockndev.com/posts/flow-of-satoshis-in-lightning-network/</guid>
       <description>Как мы уже выяснили, прежде чем начать пользоваться Лайтнингом, необходимо открыть канал и зарезервировать в нем сколько-то битков/сатошей. Этот резерв и будет лимитом канала: через канал нельзя провести больше сатошей, чем было зарезервировано. Но как именно происходит движение сатошей в канале? Сейчас разберёмся.
 Открытие канала происходит через транзакцию на блокчейне Биткоина. Тут важно зафиксировать пару деталей:
  В транзакции запирается некоторая сумма битков. Транзакция открывает канал между двумя сторонами (нодами). Движение сатошей может происходить только между этими нодами.</description>
@@ -43,20 +43,20 @@
     
     <item>
       <title>Про открытие каналов в Лайтнинге</title>
-      <link>https://blockndevcom/posts/opening-lightning-network-channels/</link>
+      <link>https://blockndev.com/posts/opening-lightning-network-channels/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/opening-lightning-network-channels/</guid>
+      <guid>https://blockndev.com/posts/opening-lightning-network-channels/</guid>
       <description>Продолжим аналогию с блокнотом. Первая же проблема, которая возникает: отсутствие гарантий оплаты. Одна сторона выполнит свои обязательства (выполнит услуги или передаст товар), а другая просто откажется платить. Лайтнинг решает эту проблему прямо: прежде чем начинать обмен необходимо зарезервировать средства, и именно они и будут участвовать в обмене. Этот механизм даёт гарантию оплаты, но создаёт и одно неудобство: на Лайтнинге нельзя перевести больше битков, чем было зарезервировано.
 Если отойти от аналогии, то резервирование средств — это открытие канала.</description>
     </item>
     
     <item>
       <title>Какую проблему решает Lightning Network</title>
-      <link>https://blockndevcom/posts/main-problem-lightning-network-solves/</link>
+      <link>https://blockndev.com/posts/main-problem-lightning-network-solves/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/main-problem-lightning-network-solves/</guid>
+      <guid>https://blockndev.com/posts/main-problem-lightning-network-solves/</guid>
       <description>LN создавался, чтобы смасштабировать промежуточные транзакции. Возьмём двух пользователей Биткоина: Сатоши и Хала. Предположим, они много раз в день обмениваются битками. Каждый раз отправлять транзакцию, ждать блока и подтверждений очень муторно (вы и сами это знаете). Поэтому Сатоши и Хал решают обмениваться транзакциями оффчейн: вместо отправки транзакции в блокчейн каждый из них записывает сумму перевода себе в блокнот (они доверяют друг другу), а когда решают обменяться фактическим битком, сверяют свои блокноты и отправляют одну результирующую транзакцию.</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DeFi on Блокчейн &amp; Разработка</title>
-    <link>https://blockndevcom/categories/defi/</link>
+    <link>https://blockndev.com/categories/defi/</link>
     <description>Recent content in DeFi on Блокчейн &amp; Разработка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Thu, 16 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blockndevcom/categories/defi/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blockndev.com/categories/defi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Концепция Side memory для сети Биткоина</title>
-      <link>https://blockndevcom/posts/bitcoin-side-memory/</link>
+      <link>https://blockndev.com/posts/bitcoin-side-memory/</link>
       <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/bitcoin-side-memory/</guid>
+      <guid>https://blockndev.com/posts/bitcoin-side-memory/</guid>
       <description>Биткоин, не смотря на свою суровую техничность, все же оставляет место для творчества и возможности взглянуть на устоявшиеся вещи с нового угла. Взять, например UTXO-сет, структуру, отслеживающую и хранящую все неизрасходованные битки, — оказывается, его можно использовать как side memory, краткосрочную память для другой P2P-сети. Вот прототип, который использует такую сеть для распространения текстовых рекламных объявлений: https://github.com/defiads/defiads Разберём, как он работает.
 Сеть используется для распространения текстовых объявлений: каждая нода содержит список таких объявлений.</description>
     </item>

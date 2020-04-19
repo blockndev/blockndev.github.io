@@ -2,60 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Блокчейн &amp; Разработка</title>
-    <link>https://blockndevcom/</link>
+    <link>https://blockndev.com/</link>
     <description>Recent content on Блокчейн &amp; Разработка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blockndevcom/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blockndev.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Хэшировать ли публичные ключи в Биткоин-адресах?</title>
-      <link>https://blockndevcom/posts/public-keys-should-be-public/</link>
+      <link>https://blockndev.com/posts/public-keys-should-be-public/</link>
       <pubDate>Sat, 11 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/public-keys-should-be-public/</guid>
+      <guid>https://blockndev.com/posts/public-keys-should-be-public/</guid>
       <description>Как вы знаете, Биткоин-адрес это хэш публичного ключа, закодированный в Base58 (за исключением bech32-адресов) для более удобного чтения. Когда вы переводите биткоины на адрес, вы переводите их именно на хэш публичного ключа, а когда вы выводите их с адреса, вы должны раскрыть сам публичный ключ. Но так было не всегда. В самой первой версии Биткоина, выпущенной Сатоши, перевод происходил на публичный ключ. Это считалось небезопасным, поэтому было сделано хэширование ключей. Но действительно ли открытые публичные ключи это такая проблема?</description>
     </item>
     
     <item>
       <title>LSAT: токен аутентификации в сервисах с оплатой через Лайтнинг</title>
-      <link>https://blockndevcom/posts/whats-lsat/</link>
+      <link>https://blockndev.com/posts/whats-lsat/</link>
       <pubDate>Fri, 03 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/whats-lsat/</guid>
+      <guid>https://blockndev.com/posts/whats-lsat/</guid>
       <description>Пару дней назад компания Lightning Labs представила новый протокол LSAT: Lightning Service Authentication Token. Протокол описывает способ аутентификации и оплаты за использование сервисов через Лайтнинг. Другими словами, это платежный шлюз для API-серверов с автоматической и гибкой оплатой сатошами через Lightning Network.
 Пару лет назад Blockstream проводили неделю приложений на LN. Одно из приложений было как раз таким платёжным шлюзом. Идея простая: у вас есть какой-то сервис, который предоставляет услуги пользователям. Допустим, это сервис типа CoinMarketCap.</description>
     </item>
     
     <item>
       <title>Erlay: протокол эффективного распространения транзакций Биткоина</title>
-      <link>https://blockndevcom/posts/whats-erlay/</link>
+      <link>https://blockndev.com/posts/whats-erlay/</link>
       <pubDate>Thu, 02 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/whats-erlay/</guid>
+      <guid>https://blockndev.com/posts/whats-erlay/</guid>
       <description>Наш соотечественник Глеб Науменко, работающий сейчас в Blockstream, разработал новый, более оптимизированный способ распространения транзакций в сети Биткоина, который называется Erlay. Алгоритм позволяет увеличить количество соединений между нодами (что повышает безопасность сети) и при этом снизить трафик, генерируемый передачей транзакций от ноды к ноде, на 40%.
 Сеть Биткоина устроена таким образом, что каждая нода получает каждую транзакцию и каждый блок. Когда вы отправляете транзакцию, нода, которая её получает, отправляет её всем нодам, к которым она подключена.</description>
     </item>
     
     <item>
       <title>Брошенные (stale) блоки в сети Биткоина</title>
-      <link>https://blockndevcom/posts/stale-blocks-in-bitcoin/</link>
+      <link>https://blockndev.com/posts/stale-blocks-in-bitcoin/</link>
       <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/stale-blocks-in-bitcoin/</guid>
+      <guid>https://blockndev.com/posts/stale-blocks-in-bitcoin/</guid>
       <description>На днях в сети Биткоина был добыт «брошенный» блок (stale block). На картинке выше это блок справа, он был добыт на 4 секунды быстрее, чем блок слева, который и продолжил цепочку. Почему это происходит?
 Каждый майнер добывает свой блок, но блоки эти практически одинаковы, т. к. майнеры пользуются одинаковым софтом для майнинга и руководствуются одинаковыми (наиболее оптимальными и прибыльными) правилами для построения блоков и включения в них транзакций. Блок справа абсолютно валиден и практически ничем не отличается от блока слева.</description>
     </item>
     
     <item>
       <title>Криптография Биткоина</title>
-      <link>https://blockndevcom/posts/cryptography-in-bitcoin/</link>
+      <link>https://blockndev.com/posts/cryptography-in-bitcoin/</link>
       <pubDate>Thu, 20 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/cryptography-in-bitcoin/</guid>
+      <guid>https://blockndev.com/posts/cryptography-in-bitcoin/</guid>
       <description>Многие считают, что криптография это шифрование, но на самом деле криптография это далеко не только шифрование. И особенно это актуально для Биткоина и вообще крипты. Ни Биткоин, ни подавляющее большинство других криптопроектов не используют шифрование (Лайтнинг использует, кстати).
 С криптографией в Биткоине все просто. Вот полный список криптографических алгоритмов, которые в нем используются:
  SHA-256 RIPEMD-160 ECDSA  SHA-256 — это часть стандарта хэширующих функций SHA-2. В него также входят SHA-224, 384 и 512.</description>
@@ -63,78 +63,78 @@
     
     <item>
       <title>Taproot: что это и зачем он нужен</title>
-      <link>https://blockndevcom/posts/whats-taproot/</link>
+      <link>https://blockndev.com/posts/whats-taproot/</link>
       <pubDate>Tue, 18 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/whats-taproot/</guid>
+      <guid>https://blockndev.com/posts/whats-taproot/</guid>
       <description>(Этот пост — часть большого паззла. Дописав его я понял, что нужно было бы написать вводный пост по криптографии и некоторым важным механикам. Буду раскрывать тему постепенно.)
 P2SH-транзакции (оплата на хэш скрипта), по сути, позволяют создавать смарт-контракты на Биткоине (хоть они и способны лишь проверять права доступа к биткам). Но по сравнению с обычным переводом битков у этого способа есть существенный недостаток: чтобы вывести битки с хэша скрипта, нужно раскрыть весь код скрипта, т.</description>
     </item>
     
     <item>
       <title>Как работают Биткоин-транзакции</title>
-      <link>https://blockndevcom/posts/how-bitcoin-transactions-work/</link>
+      <link>https://blockndev.com/posts/how-bitcoin-transactions-work/</link>
       <pubDate>Tue, 04 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/how-bitcoin-transactions-work/</guid>
+      <guid>https://blockndev.com/posts/how-bitcoin-transactions-work/</guid>
       <description>(Это вводный пост перед разбором Taproot. Чтобы понять Taproot, нужно сначала разобраться с тем, как работают транзакции в Биткоине.)
 Биткоин-транзакция состоит из двух ключевых элементов: входы (inputs) и выходы (outputs). Биткоины перемещаются не с адреса на адрес, а с выхода одной транзакции на выход другой транзакции. И по сути, биткоины хранятся именно на выходах транзакций, а не на адресах. А входы служат связующим звеном между выходами и используются только в момент создания транзакции.</description>
     </item>
     
     <item>
       <title>Подписи Шнорра в Биткоине: что это и зачем</title>
-      <link>https://blockndevcom/posts/why-schnorr-signatures/</link>
+      <link>https://blockndev.com/posts/why-schnorr-signatures/</link>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/why-schnorr-signatures/</guid>
+      <guid>https://blockndev.com/posts/why-schnorr-signatures/</guid>
       <description>На текущий момент для генерации пар ключей и для подписи транзакций в Биткоине используется алгоритм ECDSA, алгоритм цифровой подписи на эллиптических кривых. Сам алгоритм по-прежнему надёжен, но он слишком сложный, что значительно ограничивает использование некоторых его механик. BIP-340 вводит подписи Шнорра вместо подписей ECDSA, при этом оставляя ECDSA для генерации пар ключей. Зачем это нужно?
  Улучшенная безопасность. Алгоритм подписей Шнорра проще, чем ECDSA, и требует меньше обоснований надежности, что снижает количество возможных векторов атаки.</description>
     </item>
     
     <item>
       <title>Не важно, что думает Сатоши</title>
-      <link>https://blockndevcom/posts/satoshi-doesnt-matter/</link>
+      <link>https://blockndev.com/posts/satoshi-doesnt-matter/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/satoshi-doesnt-matter/</guid>
+      <guid>https://blockndev.com/posts/satoshi-doesnt-matter/</guid>
       <description>Некоторым это может показаться странным, но если бы Сатоши сегодня объявился, то его мнение о Биткоине не имело бы никакого дополнительного веса, связанного с его авторитетом. Не важно, что Сатоши думает о текущем развитии Биткоина. Он сам понял, что должно быть именно так, и потому ушёл, доверив разработку человеку, который не очень-то и хотел этим заниматься. Он понимал, что его присутствие это недостаток Биткоина.
 Разработка и развитие Биткоина это уникальный процесс, который нельзя было бы вписать в уже наработанные практики разработки ПО.</description>
     </item>
     
     <item>
       <title>Концепция Side memory для сети Биткоина</title>
-      <link>https://blockndevcom/posts/bitcoin-side-memory/</link>
+      <link>https://blockndev.com/posts/bitcoin-side-memory/</link>
       <pubDate>Thu, 16 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/bitcoin-side-memory/</guid>
+      <guid>https://blockndev.com/posts/bitcoin-side-memory/</guid>
       <description>Биткоин, не смотря на свою суровую техничность, все же оставляет место для творчества и возможности взглянуть на устоявшиеся вещи с нового угла. Взять, например UTXO-сет, структуру, отслеживающую и хранящую все неизрасходованные битки, — оказывается, его можно использовать как side memory, краткосрочную память для другой P2P-сети. Вот прототип, который использует такую сеть для распространения текстовых рекламных объявлений: https://github.com/defiads/defiads Разберём, как он работает.
 Сеть используется для распространения текстовых объявлений: каждая нода содержит список таких объявлений.</description>
     </item>
     
     <item>
       <title>Проблема Биткоин-кошельков</title>
-      <link>https://blockndevcom/posts/problems-of-bitcoin-wallets/</link>
+      <link>https://blockndev.com/posts/problems-of-bitcoin-wallets/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/problems-of-bitcoin-wallets/</guid>
+      <guid>https://blockndev.com/posts/problems-of-bitcoin-wallets/</guid>
       <description>Биткоин внутренне состоит из таких механик, которые до него нигде так широко не использовались и которые не знакомы массовому пользователю. Как сделать так, чтобы пользователь, не знакомый с этими механиками, смог пользоваться Биткоином? Провести параллель с чем-то знакомым. С кошельком (физическим), например, или с банковским приложением. Адрес, баланс, поступление, списание, входящие и исходящие переводы, история переводов — это ведь все из банковского мира. А как бы мог выглядеть интерфейс точно отражающий механику Биткоина?</description>
     </item>
     
     <item>
       <title>Криптография и паранойя</title>
-      <link>https://blockndevcom/posts/cryptography-and-paranoia/</link>
+      <link>https://blockndev.com/posts/cryptography-and-paranoia/</link>
       <pubDate>Mon, 06 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/cryptography-and-paranoia/</guid>
+      <guid>https://blockndev.com/posts/cryptography-and-paranoia/</guid>
       <description>Эти слова — синонимы. Параноидальный подход ко всем аспектам и деталям — фундаментальное и неотъемлемое свойство криптографии. Причина этого в том, что невозможно выявить факт взлома криптографического алгоритма. Если алгоритм шифрования взломан, то взломщика невозможно отличить от честного пользователя, в системе они ни чем не будут отличаться. Если сейчас окажется, что какая-то используемая повсеместно хэш-функция уязвима, то уже ничего нельзя будет сделать, нельзя будет выпустить патч и пофиксить баг. Поэтому в любом криптографическом алгоритме не должно быть известных даже теоретических способов взлома.</description>
     </item>
     
     <item>
       <title>Движение сатошей в Лайтнинге</title>
-      <link>https://blockndevcom/posts/flow-of-satoshis-in-lightning-network/</link>
+      <link>https://blockndev.com/posts/flow-of-satoshis-in-lightning-network/</link>
       <pubDate>Wed, 25 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/flow-of-satoshis-in-lightning-network/</guid>
+      <guid>https://blockndev.com/posts/flow-of-satoshis-in-lightning-network/</guid>
       <description>Как мы уже выяснили, прежде чем начать пользоваться Лайтнингом, необходимо открыть канал и зарезервировать в нем сколько-то битков/сатошей. Этот резерв и будет лимитом канала: через канал нельзя провести больше сатошей, чем было зарезервировано. Но как именно происходит движение сатошей в канале? Сейчас разберёмся.
 Открытие канала происходит через транзакцию на блокчейне Биткоина. Тут важно зафиксировать пару деталей:
  В транзакции запирается некоторая сумма битков. Транзакция открывает канал между двумя сторонами (нодами). Движение сатошей может происходить только между этими нодами.</description>
@@ -142,20 +142,20 @@ P2SH-транзакции (оплата на хэш скрипта), по сут
     
     <item>
       <title>Про открытие каналов в Лайтнинге</title>
-      <link>https://blockndevcom/posts/opening-lightning-network-channels/</link>
+      <link>https://blockndev.com/posts/opening-lightning-network-channels/</link>
       <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/opening-lightning-network-channels/</guid>
+      <guid>https://blockndev.com/posts/opening-lightning-network-channels/</guid>
       <description>Продолжим аналогию с блокнотом. Первая же проблема, которая возникает: отсутствие гарантий оплаты. Одна сторона выполнит свои обязательства (выполнит услуги или передаст товар), а другая просто откажется платить. Лайтнинг решает эту проблему прямо: прежде чем начинать обмен необходимо зарезервировать средства, и именно они и будут участвовать в обмене. Этот механизм даёт гарантию оплаты, но создаёт и одно неудобство: на Лайтнинге нельзя перевести больше битков, чем было зарезервировано.
 Если отойти от аналогии, то резервирование средств — это открытие канала.</description>
     </item>
     
     <item>
       <title>Какую проблему решает Lightning Network</title>
-      <link>https://blockndevcom/posts/main-problem-lightning-network-solves/</link>
+      <link>https://blockndev.com/posts/main-problem-lightning-network-solves/</link>
       <pubDate>Thu, 12 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blockndevcom/posts/main-problem-lightning-network-solves/</guid>
+      <guid>https://blockndev.com/posts/main-problem-lightning-network-solves/</guid>
       <description>LN создавался, чтобы смасштабировать промежуточные транзакции. Возьмём двух пользователей Биткоина: Сатоши и Хала. Предположим, они много раз в день обмениваются битками. Каждый раз отправлять транзакцию, ждать блока и подтверждений очень муторно (вы и сами это знаете). Поэтому Сатоши и Хал решают обмениваться транзакциями оффчейн: вместо отправки транзакции в блокчейн каждый из них записывает сумму перевода себе в блокнот (они доверяют друг другу), а когда решают обменяться фактическим битком, сверяют свои блокноты и отправляют одну результирующую транзакцию.</description>
     </item>
     
