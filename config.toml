@@ -1,4 +1,4 @@
-baseURL = "https://blockndev.com"
+baseURL = "https://blockndev.com/"
 languageCode = "ru"
 title = "Блокчейн & Разработка"
 description = "Блог о разработке и блокчейн-технологиях. Код, сети, паранойя."
