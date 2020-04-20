@@ -6,10 +6,20 @@
     <description>Recent content on Блокчейн &amp; Разработка</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
-    <lastBuildDate>Sat, 11 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blockndev.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Payjoin и Coinjoin: что это и что лучше</title>
+      <link>https://blockndev.com/posts/payjoin-and-coinjoin/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://blockndev.com/posts/payjoin-and-coinjoin/</guid>
+      <description>На днях вышла новая версия платежного процессора BTCPay Server, которая наделала немало шуму. Главная из новых фишек это поддержка Payjoin (также известный как P2EP, Pay to EndPoint). Шум вызвало заявление разработчиков о том, что Payjoin лучше, чем Coinjoin. Разберемся, что это вообще такое, в чем польза, и кто действительно лучше.
+Оба этих алгоритма пытаются залатать одну и ту же дыру в анонимности Биткоина. Как вы знаете, транзакции Биткоина состоят из входов и выходов: биткоины перемещаются с выходов на выходы и хранятся на них, а входы используются в качестве связующего звена.</description>
+    </item>
     
     <item>
       <title>Хэшировать ли публичные ключи в Биткоин-адресах?</title>
